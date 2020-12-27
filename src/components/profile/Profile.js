@@ -8,6 +8,7 @@ import {
 import MediaLinks from '../media-links';
 import classes from './Profile.module.css';
 import PropTypes from 'prop-types';
+import {Summary} from '../summary/Summary';
 const {Text} = Typography;
 
 export const Profile = ({person}) => {
@@ -41,6 +42,7 @@ export const Profile = ({person}) => {
             </Row>
           </Col>
         </Row>
+        <Summary summary={person.summaryOfBio} />
         <MediaLinks links={person.links} />
       </Col>
     </Row>
@@ -89,7 +91,7 @@ Profile.propTypes = {
       longitude: PropTypes.number.isRequired,
       timezone: PropTypes.string.isRequired,
       timezoneOffSet: PropTypes.number.isRequired,
-  }),
+    }),
     theme: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     pictureThumbnail: PropTypes.string,

@@ -1,0 +1,9 @@
+.Container {
+  padding: 10px;
+}
+
+.Ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
