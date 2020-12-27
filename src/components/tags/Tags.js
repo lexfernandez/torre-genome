@@ -12,7 +12,6 @@ export const Tags = ({
   onClick,
   sort,
 }) => {
-  console.log(itemKey);
   let tags = items.sort(sort).map((item) => (
     <Tag
       key={itemKey(item)}
