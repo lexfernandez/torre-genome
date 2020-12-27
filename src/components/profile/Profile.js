@@ -8,15 +8,79 @@ import {
 import MediaLinks from '../media-links';
 import classes from './Profile.module.css';
 import PropTypes from 'prop-types';
-import {Summary} from '../summary/Summary';
-import {Skills} from '../skills/Skills';
+import Summary from '../summary';
+import Tags from '../tags';
 const {Text} = Typography;
 
-export const Profile = ({person}) => {
+export const Profile = ({
+  person,
+  strengths,
+  interests,
+  opportunities,
+  languages,
+}) => {
   let verified = <SafetyCertificateOutlined className={classes.Verified} />;
   if (!person.verified) {
     verified = <SecurityScanOutlined className={classes.PendingVerification} />;
   }
+
+  let strengthsNode = null;
+  if (strengths) {
+    strengthsNode = (
+      <>
+        <Divider orientation="left" plain>
+          Current skills:
+        </Divider>
+        <Tags items={strengths} />
+      </>
+    );
+  }
+
+  let interestsNode = null;
+  if (interests) {
+    interestsNode = (
+      <>
+        <Divider orientation="left" plain>
+          Skills s/he wants to develop:
+        </Divider>
+        <Tags items={interests} />
+      </>
+    );
+  }
+
+  let opportunitiesNode = null;
+  let industries =
+    opportunities &&
+    opportunities
+      .filter((oportunity) => oportunity.interest === 'industries')
+      .pop();
+  if (industries && industries.data) {
+    opportunitiesNode = (
+      <>
+        <Divider orientation="left" plain>
+          Industries and sectors of interest:
+        </Divider>
+        <Tags items={industries.data} itemKey={(item) => item.code} />
+      </>
+    );
+  }
+
+  let languagesNode = null;
+  if (languages) {
+    languagesNode = (
+      <>
+        <Divider orientation="left" plain>
+          Languages:
+        </Divider>
+        <Tags
+          items={languages}
+          itemKey={(item) => item.code}
+          renderItem={(item) => `${item.language} -  ${item.fluency}`}
+        />
+      </>
+    );
+  }
+
   return (
     <Row align="middle">
       <Col span={24}>
@@ -49,20 +113,13 @@ export const Profile = ({person}) => {
           Contact Alex regarding:
         </Divider>
 
-        <Divider orientation="left" plain>
-          Current skills:
-        </Divider>
-        <Skills skills={person.strengths} />
-        <Divider orientation="left" plain>
-          Skills s/he wants to develop:
-        </Divider>
-        <Skills skills={person.interests} />
-        <Divider orientation="left" plain>
-          Industries and sectors of interest:
-        </Divider>
-        <Divider orientation="left" plain>
-          Languages:
-        </Divider>
+        {strengthsNode}
+
+        {interestsNode}
+
+        {opportunitiesNode}
+
+        {languagesNode}
       </Col>
     </Row>
   );
@@ -118,7 +175,9 @@ Profile.propTypes = {
     summaryOfBio: PropTypes.string,
     weightGraph: PropTypes.string.isRequired,
     publicId: PropTypes.string.isRequired,
-    strengths: PropTypes.arrayOf(PropTypes.object.isRequired),
-    interests: PropTypes.arrayOf(PropTypes.object.isRequired),
   }),
+  strengths: PropTypes.arrayOf(PropTypes.object.isRequired),
+  interests: PropTypes.arrayOf(PropTypes.object.isRequired),
+  opportunities: PropTypes.arrayOf(PropTypes.object.isRequired),
+  languages: PropTypes.arrayOf(PropTypes.object.isRequired),
 };
