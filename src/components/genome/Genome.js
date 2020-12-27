@@ -3,6 +3,7 @@ import {Col, Row} from 'antd';
 import classes from './Genome.module.css';
 import {Profile} from '../profile/Profile';
 import genome from './genome.json';
+import Behavior from '../behavior';
 
 export const Genome = () => {
   return (
@@ -20,19 +21,18 @@ export const Genome = () => {
           </div>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
-          <Row align="middle" className={classes.Card}>
-            Reputation
-          </Row>
+          <div className={classes.Card}>Reputation</div>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
-          <Row align="middle" className={classes.Card}>
-            Resume
-          </Row>
+          <div className={classes.Card}>Resume</div>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
-          <Row align="middle" className={classes.Card}>
-            behavior
-          </Row>
+          <div className={classes.Card}>
+            <Behavior
+              personalityTraits={genome.personalityTraitsResults}
+              professionalCulture={genome.professionalCultureGenomeResults}
+            />
+          </div>
         </Col>
       </Row>
     </>
