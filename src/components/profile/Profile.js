@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Col, Avatar, Space, Typography} from 'antd';
+import {Row, Col, Avatar, Space, Typography, Divider} from 'antd';
 import {
   AntDesignOutlined,
   SafetyCertificateOutlined,
@@ -9,6 +9,7 @@ import MediaLinks from '../media-links';
 import classes from './Profile.module.css';
 import PropTypes from 'prop-types';
 import {Summary} from '../summary/Summary';
+import {Skills} from '../skills/Skills';
 const {Text} = Typography;
 
 export const Profile = ({person}) => {
@@ -44,6 +45,24 @@ export const Profile = ({person}) => {
         </Row>
         <Summary summary={person.summaryOfBio} />
         <MediaLinks links={person.links} />
+        <Divider orientation="left" plain>
+          Contact Alex regarding:
+        </Divider>
+
+        <Divider orientation="left" plain>
+          Current skills:
+        </Divider>
+        <Skills skills={person.strengths} />
+        <Divider orientation="left" plain>
+          Skills s/he wants to develop:
+        </Divider>
+        <Skills skills={person.interests} />
+        <Divider orientation="left" plain>
+          Industries and sectors of interest:
+        </Divider>
+        <Divider orientation="left" plain>
+          Languages:
+        </Divider>
       </Col>
     </Row>
   );
@@ -99,5 +118,7 @@ Profile.propTypes = {
     summaryOfBio: PropTypes.string,
     weightGraph: PropTypes.string.isRequired,
     publicId: PropTypes.string.isRequired,
+    strengths: PropTypes.arrayOf(PropTypes.object.isRequired),
+    interests: PropTypes.arrayOf(PropTypes.object.isRequired),
   }),
 };
