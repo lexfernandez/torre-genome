@@ -1,5 +1,5 @@
 import React, {useState, Suspense, lazy} from 'react';
-import {Layout, Spin} from 'antd';
+import {Layout, Row} from 'antd';
 import {MenuUnfoldOutlined, MenuFoldOutlined} from '@ant-design/icons';
 import classes from './Main.module.css';
 import {Menu} from 'antd';
@@ -28,9 +28,9 @@ const Main = () => {
   return (
     <Layout className={classes.Main}>
       <Sider trigger={null} collapsible collapsed={isCollapsed}>
-        <div className={classes.CenterText}>
+        <Row align="middle" justify="center" style={{padding: '20px'}}>
           <Logo className={classes.Logo} />
-        </div>
+        </Row>
         <Menu theme="dark" mode="inline" defaultSelectedKeys={['signal']}>
           <Menu.Item key="genome" icon={<UserOutlined />}>
             <Link to="/my-genome">My genome</Link>
