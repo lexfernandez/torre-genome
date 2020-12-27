@@ -1,5 +1,15 @@
+.Header {
+  padding-left: 10px;
+}
 .Name {
   font-size: 20px;
   word-wrap: break-word;
-  padding-left: 10px;
+}
+
+.Verified {
+  color: green;
+}
+
+.PendingVerification {
+  color: red;
 }
