@@ -13,6 +13,7 @@ import {
 } from '@ant-design/icons';
 import {ReactComponent as Logo} from '../../assets/logo.svg';
 import {Link, Switch, Route} from 'react-router-dom';
+import Loading from '../../components/loading';
 const Genome = lazy(() => import('../../components/genome'));
 
 const {Header, Sider, Content} = Layout;
@@ -23,12 +24,6 @@ const Main = () => {
   const toggle = () => {
     setCollapsed(!isCollapsed);
   };
-
-  let loading = (
-    <div className={classes.CenterText}>
-      <Spin />
-    </div>
-  );
 
   return (
     <Layout className={classes.Main}>
@@ -69,7 +64,7 @@ const Main = () => {
           )}
         </Header>
         <Content className={classes.Content}>
-          <Suspense fallback={loading}>
+          <Suspense fallback={<Loading />}>
             <Switch>
               <Route path="/my-genome" component={Genome} />
               <Route path="/search" component={Genome} />
