@@ -6,7 +6,7 @@ import HexGraph from '../hex-graph';
 
 export const PersonalityTraits = ({groups, analyses}) => {
   const [results, setResults] = useState([]);
-  const [visibleResult, setVisibleResult] = useState(null);
+  const [visibleResult, setVisibleResult] = useState(0);
 
   useEffect(() => {
     let analysisList = groups.reduce((previous, current) => {
