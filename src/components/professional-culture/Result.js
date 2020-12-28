@@ -28,13 +28,16 @@ export const Result = ({group, analyses}) => {
     }))
     .sort((a, b) => (a.percentage > b.percentage ? -1 : 1));
 
-  let tooltipDetails = validAnalyses.map(({section, analysis, percentage}) => {
-    return (
-      <div key={analysis.section}>
-        -{section}({percentage}%)
-      </div>
-    );
-  });
+  let tooltipDetails = <div>no results</div>;
+  if (validAnalyses.length) {
+    tooltipDetails = validAnalyses.map(({section, analysis, percentage}) => {
+      return (
+        <div key={analysis.section}>
+          -{section}({percentage}%)
+        </div>
+      );
+    });
+  }
 
   return (
     <>
