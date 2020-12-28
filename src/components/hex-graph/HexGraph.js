@@ -20,6 +20,8 @@ export const HexGraph = ({
   let svgElements = elementsRotation.map((rotation, index) => {
     return (
       <a
+        key={index}
+        href="#"
         xlinkHref="#"
         onClick={() => onClick(index)}
         onMouseOver={() => onHover(index)}>
