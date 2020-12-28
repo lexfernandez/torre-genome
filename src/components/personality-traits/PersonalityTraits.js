@@ -20,7 +20,7 @@ export const PersonalityTraits = ({groups, analyses}) => {
   }, [groups, analyses]);
 
   let detail = null;
-  if (visibleResult != null) {
+  if (results.length && visibleResult != null) {
     console.log(results);
     let result = results[visibleResult];
 
@@ -41,12 +41,6 @@ export const PersonalityTraits = ({groups, analyses}) => {
           pieces={results.length}
         />
       </Col>
-      {/* {results.map((result) => (
-        <div key={result.id}>
-          {result.id}= {result.analysis} ({result.median}+-{result.stddev})
-        </div>
-      ))} */}
-
       {detail}
     </Row>
   );
