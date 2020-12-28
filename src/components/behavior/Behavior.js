@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import {Row, Col, Divider} from 'antd';
 import PersonalityTraits from '../personality-traits';
 import classes from './Behavior.module.css';
+import ProfessionalCulture from '../professional-culture';
 
 export const Behavior = ({personalityTraits, professionalCulture}) => {
   return (
@@ -13,6 +14,13 @@ export const Behavior = ({personalityTraits, professionalCulture}) => {
           <PersonalityTraits
             groups={personalityTraits.groups}
             analyses={personalityTraits.analyses}
+          />
+        </Row>
+        <Row>
+          <Divider orientation="left">Professional culture</Divider>
+          <ProfessionalCulture
+            groups={professionalCulture.groups}
+            analyses={professionalCulture.analyses}
           />
         </Row>
       </Col>
