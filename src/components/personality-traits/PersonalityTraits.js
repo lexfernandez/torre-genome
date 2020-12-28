@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import {Row} from 'antd';
 
 export const PersonalityTraits = ({groups, analyses}) => {
-  const [results, setResults] = useState([{}]);
+  const [results, setResults] = useState([]);
 
   useEffect(() => {
     let analysisList = groups.reduce((previous, current) => {
