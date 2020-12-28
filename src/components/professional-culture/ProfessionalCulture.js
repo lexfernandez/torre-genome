@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Row, Col, Timeline} from 'antd';
 import {Result} from './Result';
+import classes from './ProfessionalCulture.module.css';
 
 export const ProfessionalCulture = ({groups, analyses}) => {
   let timelineItems = groups.map((group) => {
@@ -17,7 +18,7 @@ export const ProfessionalCulture = ({groups, analyses}) => {
 
   return (
     <Row>
-      <Col span={24}>
+      <Col span={24} className={classes.Dynamics}>
         <Timeline mode="alternate">{timelineItems}</Timeline>
       </Col>
     </Row>
