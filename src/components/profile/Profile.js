@@ -89,6 +89,7 @@ export const Profile = ({
             <Avatar
               size={{xs: 40, sm: 40, md: 64, lg: 64, xl: 80, xxl: 80}}
               src={person.picture}
+              className={classes.Picture}
               icon={<AntDesignOutlined />}
             />
           </Col>
