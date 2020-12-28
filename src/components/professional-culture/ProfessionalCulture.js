@@ -1,38 +1,24 @@
-import React, {useState, useEffect} from 'react';
-import classes from './ProfessionalCulture.module.css';
+import React from 'react';
 import PropTypes from 'prop-types';
-import {Row, Col} from 'antd';
+import {Row, Col, Timeline} from 'antd';
+import {Result} from './Result';
 
 export const ProfessionalCulture = ({groups, analyses}) => {
-  const [results, setResults] = useState([]);
-
-  useEffect(() => {
-    let resultList = groups.reduce((previous, current) => {
-      let groupResults = analyses.filter(
-        (analysis) => analysis.groupId === current.id,
-      );
-      return previous.concat({...current, analyses: groupResults});
-    }, []);
-
-    setResults(resultList);
-    console.log(resultList);
-  }, [groups, analyses]);
+  let timelineItems = groups.map((group) => {
+    let groupAnalyses = analyses.filter(
+      (analysis) => analysis.groupId === group.id && analysis.analysis > 0,
+    );
+    return (
+      <Timeline.Item key={group.id}>
+        <Result group={group} analyses={groupAnalyses} />
+      </Timeline.Item>
+    );
+  });
 
   return (
     <Row>
       <Col span={24}>
-        {results.map((result) => (
-          <div>
-            {result.text}
-            <div>
-              {result.analyses.map((analysis) => (
-                <div>
-                  -{analysis.section}({analysis.analysis})
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
+        <Timeline mode="alternate">{timelineItems}</Timeline>
       </Col>
     </Row>
   );
