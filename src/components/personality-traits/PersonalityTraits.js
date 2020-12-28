@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import classes from './PersonalityTraits.module.css';
 import PropTypes from 'prop-types';
-import {Row} from 'antd';
+import {Row, Col} from 'antd';
+import HexGraph from '../hex-graph';
 
 export const PersonalityTraits = ({groups, analyses}) => {
   const [results, setResults] = useState([]);
+  const [visibleResult, setVisibleResult] = useState(null);
 
   useEffect(() => {
     let analysisList = groups.reduce((previous, current) => {
@@ -17,13 +19,35 @@ export const PersonalityTraits = ({groups, analyses}) => {
     setResults(analysisList);
   }, [groups, analyses]);
 
+  let detail = null;
+  if (visibleResult != null) {
+    console.log(results);
+    let result = results[visibleResult];
+
+    detail = (
+      <div key={result.id}>
+        {result.id}= {result.analysis} ({result.median}+-{result.stddev})
+      </div>
+    );
+  }
+
   return (
-    <Row>
-      {results.map((result) => (
-        <div>
+    <Row justify="center">
+      <Col span={24} className={classes.PersonalityTraitsHex}>
+        <HexGraph
+          onClick={(index) => setVisibleResult(index)}
+          onHover={(index) => setVisibleResult(index)}
+          initialPosition={-60}
+          pieces={results.length}
+        />
+      </Col>
+      {/* {results.map((result) => (
+        <div key={result.id}>
           {result.id}= {result.analysis} ({result.median}+-{result.stddev})
         </div>
-      ))}
+      ))} */}
+
+      {detail}
     </Row>
   );
 };

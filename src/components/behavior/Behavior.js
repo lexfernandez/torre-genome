@@ -10,11 +10,13 @@ export const Behavior = ({personalityTraits, professionalCulture}) => {
     <Row>
       <Col span={24}>
         <Row>
+          <Col span={24}>
           <Divider orientation="left">Personality traits</Divider>
           <PersonalityTraits
             groups={personalityTraits.groups}
             analyses={personalityTraits.analyses}
           />
+          </Col>
         </Row>
         <Row>
           <Divider orientation="left">Professional culture</Divider>
