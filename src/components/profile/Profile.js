@@ -156,7 +156,7 @@ Profile.propTypes = {
     weight: PropTypes.number.isRequired,
     locale: PropTypes.string.isRequired,
     subjectId: PropTypes.number.isRequired,
-    picture: PropTypes.string.isRequired,
+    picture: PropTypes.string,
     hasEmail: PropTypes.bool.isRequired,
     name: PropTypes.string.isRequired,
     links: PropTypes.arrayOf(PropTypes.object.isRequired),
