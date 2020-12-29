@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Col, Row, Skeleton} from 'antd';
-import classes from './Genome.module.css';
+import {Alert, Col, Row, Skeleton} from 'antd';
 import {Profile} from '../../components/profile/Profile';
 import fakeGenome from './genome.json';
 import Behavior from '../../components/behavior';
@@ -10,10 +9,12 @@ import Card from '../../components/card';
 
 export const Genome = () => {
   const [genome, setGenome] = useState(undefined);
+  const [error, setError] = useState(false);
   let {username} = useParams();
 
   useEffect(async () => {
     setGenome(undefined);
+    setError(false);
     async function getData() {
       try {
         let response = await Api.getGenome(username);
@@ -23,6 +24,7 @@ export const Genome = () => {
         setGenome(bio);
       } catch (error) {
         setGenome(fakeGenome);
+        setError(true);
         console.log(error);
       }
     }
@@ -52,9 +54,22 @@ export const Genome = () => {
     );
   }
 
+  let errorMessage = null;
+  if (error) {
+    errorMessage = (
+      <Col span={24}>
+        <Alert
+          message="Sorry! the request failed; you are looking at a fake genome."
+          type="error"
+        />
+      </Col>
+    );
+  }
+
   return (
     <>
       <Row gutter={[16, 16]}>
+        {errorMessage}
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
           <div className={classes.Card}>{profile}</div>
             <Card>{profile}</Card>
