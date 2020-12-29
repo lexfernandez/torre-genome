@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import classes from './PersonalityTraits.module.css';
 import PropTypes from 'prop-types';
-import {Row, Col} from 'antd';
+import {Row, Col, Tooltip} from 'antd';
 import HexGraph from '../hex-graph';
 import {ReactComponent as Extraversion} from '../../assets/extraversion.svg';
 import {ReactComponent as Agreeableness} from '../../assets/agreeableness.svg';
@@ -10,6 +10,7 @@ import {ReactComponent as Conscientiousness} from '../../assets/conscientiousnes
 import {ReactComponent as HonestyHumility} from '../../assets/honesty-humility.svg';
 import {ReactComponent as OpennessToExperience} from '../../assets/openness-to-experience.svg';
 import {Arrow} from './Arrow';
+import {InfoCircleOutlined} from '@ant-design/icons';
 
 const getNormalDistribution = (trait) => {
   switch (trait) {
@@ -92,7 +93,15 @@ export const PersonalityTraits = ({groups, analyses}) => {
       <Row key={result.id}>
         <Col span={24}>
           <Row className={[classes.Trait, classes.AlignTextCenter]}>
-            <Col span={24}>{` ${result.id.split('-').join(' ')}`}</Col>
+            <Col span={24} style={{wordBreak: 'keep-all'}}>
+              {` ${result.id.split('-').join(' ')} `}
+              <Tooltip
+                title={`When 0 totally ${
+                  normalDistribution[result.id].left
+                } and 5 totally ${normalDistribution[result.id].rigth}`}>
+                <InfoCircleOutlined />
+              </Tooltip>
+            </Col>
           </Row>
           <Row className={classes.AlignTextCenter}>
             <Col span={4} className={[classes.AlignTextLeft, classes.Small]}>
