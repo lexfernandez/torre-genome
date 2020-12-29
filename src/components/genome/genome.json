@@ -1,0 +1,1087 @@
+{
+  "person": {
+    "professionalHeadline": "Software Developer",
+    "completion": 0.4444,
+    "showPhone": false,
+    "created": "2020-12-03T23:06:39Z",
+    "verified": true,
+    "flags": {
+      "benefits": true,
+      "canary": false,
+      "enlauSource": false,
+      "fake": false,
+      "featureDiscovery": true,
+      "getSignaledBenefitsViewed": true,
+      "firstSignalSent": true,
+      "promoteYourselfBenefitsViewed": true,
+      "promoteYourselfCompleted": true,
+      "importingLinkedin": false,
+      "onBoarded": true,
+      "remoter": true,
+      "signalsFeatureDiscovery": true,
+      "signedInToOpportunities": true,
+      "importingLinkedinRecommendations": true,
+      "contactsImported": false,
+      "appContactsImported": false,
+      "genomeCompletionAcknowledged": true
+    },
+    "weight": 0,
+    "locale": "en",
+    "subjectId": 912091,
+    "picture": "https://starrgate.s3.amazonaws.com:443/users/93627a3decc26c58e1d3ead525c8b18501688597/profile_FMYy0sT.jpg",
+    "hasEmail": true,
+    "name": "Alex Omar Fernández Lorenzo",
+    "links": [
+      {
+        "id": "gMR8QOky",
+        "name": "linkedin",
+        "address": "https://www.linkedin.com/in/alex-fern%C3%A1ndez-883792b3/"
+      },
+      {
+        "id": "pyoBzdej",
+        "name": "github",
+        "address": "https://github.com/lexfernandez"
+      },
+      {
+        "id": "eyna8dEj",
+        "name": "instagram",
+        "address": "https://instagram.com/lexfl"
+      },
+      {
+        "id": "WNVx5Ovj",
+        "name": "facebook",
+        "address": "https://facebook.com/AlexFerLor"
+      },
+      {"id": "8yZ7emLN", "name": "", "address": "http://aasdas.com"},
+      {
+        "id": "EM37zebM",
+        "name": "gitlab",
+        "address": "https://gitlab.com/asdasd"
+      }
+    ],
+    "location": {
+      "name": "Departamento de Copan, Honduras",
+      "shortName": "Choloma, Honduras",
+      "country": "Honduras",
+      "latitude": 14.9360838,
+      "longitude": -88.864698,
+      "timezone": "America/Tegucigalpa",
+      "timezoneOffSet": -21600000
+    },
+    "theme": "blue500",
+    "id": "xM9aVwqM",
+    "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/93627a3decc26c58e1d3ead525c8b18501688597/profile_FMYy0sT/e029040739b08b332ff4bc3bd4b711b2.jpg",
+    "claimant": false,
+    "summaryOfBio": "Summary testing, I don't know what to put here; maybe after I drink a coffee, I can get some inspiration.",
+    "weightGraph": "https://hcti.io/v1/image/ce6adfc3-bc7e-4fee-be38-2e8189e630dc",
+    "publicId": "olorenzo"
+  },
+  "stats": {"jobs": 3, "strengths": 9, "interests": 8},
+  "strengths": [
+    {
+      "id": "KNxRDwPj",
+      "code": 18319,
+      "name": "Javascript",
+      "additionalInfo": "",
+      "weight": 0,
+      "recommendations": 1,
+      "media": [],
+      "created": "2020-12-16T20:53:37"
+    },
+    {
+      "id": "GNKEp7Xj",
+      "code": 32590,
+      "name": "TypeScript",
+      "additionalInfo": "",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-09T17:21:26"
+    },
+    {
+      "id": "JMegrmay",
+      "code": 34500,
+      "name": "Scrum",
+      "additionalInfo": "",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-09T17:10:48"
+    },
+    {
+      "id": "vN8QdXYM",
+      "code": 717635,
+      "name": "Analyst",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-08T17:39:08"
+    },
+    {
+      "id": "pyJ9lLkj",
+      "code": 40451,
+      "name": "Customer Service",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-08T17:38:58"
+    },
+    {
+      "id": "bjAQldvj",
+      "code": 23818,
+      "name": "React.js",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-08T17:27:58"
+    },
+    {
+      "id": "8jp3509M",
+      "code": 56483,
+      "name": "Team Player",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-08T17:27:58"
+    },
+    {
+      "id": "8jp35L9M",
+      "code": 6085910,
+      "name": "Leadership team",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-08T17:38:48"
+    },
+    {
+      "id": "OMvq3W3N",
+      "code": 704,
+      "name": "Software Development",
+      "weight": 0,
+      "recommendations": 0,
+      "media": [],
+      "created": "2020-12-08T17:11:22"
+    }
+  ],
+  "interests": [
+    {
+      "id": "7M2nQ5gM",
+      "code": 55795,
+      "name": "Management",
+      "media": [],
+      "created": "2020-12-08T17:14:40"
+    },
+    {
+      "id": "Oj6D5n3N",
+      "code": 55266,
+      "name": "Communication",
+      "media": [],
+      "created": "2020-12-08T17:14:42"
+    },
+    {
+      "id": "BMLYPo8j",
+      "code": 40451,
+      "name": "Customer Service",
+      "media": [],
+      "created": "2020-12-08T17:14:45"
+    },
+    {
+      "id": "9MEnJ6xj",
+      "code": 521,
+      "name": "Engineering",
+      "additionalInfo": "",
+      "media": [],
+      "created": "2020-12-09T17:21:44"
+    },
+    {
+      "id": "nM446XxM",
+      "code": 6081923,
+      "name": "FullStack development",
+      "additionalInfo": "",
+      "media": [],
+      "created": "2020-12-09T17:21:54"
+    },
+    {
+      "id": "7M2nQJLM",
+      "code": 32590,
+      "name": "TypeScript",
+      "additionalInfo": "",
+      "media": [],
+      "created": "2020-12-09T17:22:03"
+    },
+    {
+      "id": "Oj6D5zrN",
+      "code": 6085401,
+      "name": "Software architecture",
+      "additionalInfo": "",
+      "media": [],
+      "created": "2020-12-09T17:22:20"
+    },
+    {
+      "id": "BMLYPR9j",
+      "code": 46421,
+      "name": "Microservices",
+      "additionalInfo": "",
+      "media": [],
+      "created": "2020-12-09T17:22:26"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "kNm45bDy",
+      "category": "jobs",
+      "name": "Software Engineer",
+      "organizations": [
+        {
+          "id": 570081,
+          "name": "ArcBest Technologies",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1607558890/origin/bio/organizations/sc9as6esxgrixobwobks.png"
+        },
+        {
+          "id": 443692,
+          "name": "number8",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601758002/origin/bio/organizations/ikazfxs51mjgjuhmcjy7.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "October",
+      "fromYear": "2016",
+      "remote": true,
+      "additionalInfo": "USA (Remotely)\r\n\r\nProvide professional software engineering services to ArcBest Technologies as one of Number8's\r\nsoftware contractors.\r\n\r\n•   Upgrading many internal web applications' as part of a massive migration that long for over\r\nfive years, I worked for three years on this project, removing deprecated code and ensuring\r\nthe pages were HTML5 Compliant.\r\n•   For the last year, I have been migrating many applications from .Net Remoting to WCF using\r\nthe adapter pattern to provide an interface that allows clients to keep running with minor\r\nchanges.",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1
+    },
+    {
+      "id": "8yZl8QxM",
+      "category": "jobs",
+      "name": "Internal Team Lead",
+      "organizations": [
+        {
+          "id": 443692,
+          "name": "number8",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601758002/origin/bio/organizations/ikazfxs51mjgjuhmcjy7.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "February",
+      "fromYear": "2018",
+      "remote": true,
+      "additionalInfo": "Number8 (Remotely)\r\n\r\n•   Have regular 1:1 sessions with the team members to understand them better and know how\r\nthey are doing with their work and personal life.\r\n•   Identifying, Investigating, and solving problems that can be happening between our\r\nconsultants and the client.\r\n•   Ensure the consultants meet the estimates and provide aid if they have any issues to complete their tasks.\r\n•   Handle customer complaints or any major incidents.",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2
+    },
+    {
+      "id": "EM36w1eN",
+      "category": "jobs",
+      "name": "Software Engineer",
+      "organizations": [{"id": 140813, "name": "Seguridad móvil GPS"}],
+      "responsibilities": [],
+      "fromMonth": "November",
+      "fromYear": "2014",
+      "toMonth": "October",
+      "toYear": "2020",
+      "remote": false,
+      "additionalInfo": "•   Design and management of internal and external software development projects\r\n•   Design and architecture of a GPS tracking platform\r\n•   Setup a development and production environment with CI/CD using AWS (CodePipeline, CodeBuild, Elastic Beanstalk, s3)\r\n•   Design and normalization of a database for the GPS tracking platform, which is run in AWS\r\nRDS using MSSQL\r\n•   Transform client requirements into doable tasks and assign them to the team members.\r\n•   Lead a team of 6 developers to develop different projects using agile methodologies.\r\n•   SPA development using ReactJs, Google Maps, S3\r\n•   API development using Nodejs, Loopback, and pm2.\r\n•   Create API for mobile app using ASP.NET Web API\r\n•   Implement Github as a Version Control System for all the different projects of the company.\r\n•   Build an automated report service that allows the clients to schedule when, how, and who\r\nwill get the reports.\r\n•   Improve photo report response time from minutes to seconds by processing the photographs\r\nin the background and letting the browser to get the images instead of returning the blob\r\ndata in the request-response communication.\r\n•   Identified and fixed many security issues related to SQL Injection and sensitive user data\r\ndisclosure.\r\n•   3rd-Party API Integration such as Google Maps, Twillio, Sendgrid, and Stripe\r\n•   Integrate different GPS device protocols",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 1,
+      "recommendations": 1,
+      "media": [],
+      "rank": 3
+    }
+  ],
+  "awards": [],
+  "jobs": [
+    {
+      "id": "kNm45bDy",
+      "category": "jobs",
+      "name": "Software Engineer",
+      "organizations": [
+        {
+          "id": 570081,
+          "name": "ArcBest Technologies",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1607558890/origin/bio/organizations/sc9as6esxgrixobwobks.png"
+        },
+        {
+          "id": 443692,
+          "name": "number8",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601758002/origin/bio/organizations/ikazfxs51mjgjuhmcjy7.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "October",
+      "fromYear": "2016",
+      "remote": true,
+      "additionalInfo": "USA (Remotely)\r\n\r\nProvide professional software engineering services to ArcBest Technologies as one of Number8's\r\nsoftware contractors.\r\n\r\n•   Upgrading many internal web applications' as part of a massive migration that long for over\r\nfive years, I worked for three years on this project, removing deprecated code and ensuring\r\nthe pages were HTML5 Compliant.\r\n•   For the last year, I have been migrating many applications from .Net Remoting to WCF using\r\nthe adapter pattern to provide an interface that allows clients to keep running with minor\r\nchanges.",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 1
+    },
+    {
+      "id": "8yZl8QxM",
+      "category": "jobs",
+      "name": "Internal Team Lead",
+      "organizations": [
+        {
+          "id": 443692,
+          "name": "number8",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1601758002/origin/bio/organizations/ikazfxs51mjgjuhmcjy7.png"
+        }
+      ],
+      "responsibilities": [],
+      "fromMonth": "February",
+      "fromYear": "2018",
+      "remote": true,
+      "additionalInfo": "Number8 (Remotely)\r\n\r\n•   Have regular 1:1 sessions with the team members to understand them better and know how\r\nthey are doing with their work and personal life.\r\n•   Identifying, Investigating, and solving problems that can be happening between our\r\nconsultants and the client.\r\n•   Ensure the consultants meet the estimates and provide aid if they have any issues to complete their tasks.\r\n•   Handle customer complaints or any major incidents.",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 0,
+      "recommendations": 0,
+      "media": [],
+      "rank": 2
+    },
+    {
+      "id": "EM36w1eN",
+      "category": "jobs",
+      "name": "Software Engineer",
+      "organizations": [{"id": 140813, "name": "Seguridad móvil GPS"}],
+      "responsibilities": [],
+      "fromMonth": "November",
+      "fromYear": "2014",
+      "toMonth": "October",
+      "toYear": "2020",
+      "remote": false,
+      "additionalInfo": "•   Design and management of internal and external software development projects\r\n•   Design and architecture of a GPS tracking platform\r\n•   Setup a development and production environment with CI/CD using AWS (CodePipeline, CodeBuild, Elastic Beanstalk, s3)\r\n•   Design and normalization of a database for the GPS tracking platform, which is run in AWS\r\nRDS using MSSQL\r\n•   Transform client requirements into doable tasks and assign them to the team members.\r\n•   Lead a team of 6 developers to develop different projects using agile methodologies.\r\n•   SPA development using ReactJs, Google Maps, S3\r\n•   API development using Nodejs, Loopback, and pm2.\r\n•   Create API for mobile app using ASP.NET Web API\r\n•   Implement Github as a Version Control System for all the different projects of the company.\r\n•   Build an automated report service that allows the clients to schedule when, how, and who\r\nwill get the reports.\r\n•   Improve photo report response time from minutes to seconds by processing the photographs\r\nin the background and letting the browser to get the images instead of returning the blob\r\ndata in the request-response communication.\r\n•   Identified and fixed many security issues related to SQL Injection and sensitive user data\r\ndisclosure.\r\n•   3rd-Party API Integration such as Google Maps, Twillio, Sendgrid, and Stripe\r\n•   Integrate different GPS device protocols",
+      "highlighted": true,
+      "weight": 0,
+      "verifications": 1,
+      "recommendations": 1,
+      "media": [],
+      "rank": 3
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "education": [],
+  "opportunities": [
+    {
+      "id": "MLWLRV9N",
+      "interest": "jobs",
+      "field": "desirable-compensation-currency",
+      "data": "USD$"
+    },
+    {
+      "id": "y5Eb8kdy",
+      "interest": "jobs",
+      "field": "desirable-compensation-amount",
+      "data": 15
+    },
+    {
+      "id": "NaJAG98M",
+      "interest": "jobs",
+      "field": "desirable-compensation-periodicity",
+      "data": "hourly"
+    },
+    {
+      "id": "jrbZ1Bqj",
+      "interest": "jobs",
+      "field": "desirable-compensation-publicly-visible",
+      "data": true
+    },
+    {"id": "yY86J5Dj", "interest": "jobs", "field": "private", "data": false},
+    {"id": "y0J0vQwM", "interest": "gigs", "field": "active", "data": false},
+    {"id": "NxXvZ1WN", "interest": "gigs", "field": "private", "data": false},
+    {
+      "id": "NKg61B4N",
+      "interest": "internships",
+      "field": "active",
+      "data": false
+    },
+    {
+      "id": "M7dbWLVj",
+      "interest": "internships",
+      "field": "private",
+      "data": false
+    },
+    {
+      "id": "jw4pB1my",
+      "interest": "mentoring",
+      "field": "active",
+      "data": false
+    },
+    {
+      "id": "MEXb6LRN",
+      "interest": "advising",
+      "field": "active",
+      "data": false
+    },
+    {"id": "M4QdXL6j", "interest": "hiring", "field": "active", "data": false},
+    {"id": "N8g155Vy", "interest": "jobs", "field": "active", "data": true},
+    {
+      "id": "NKgboOwN",
+      "interest": "industries",
+      "field": "types",
+      "data": [
+        {"code": 33357, "locale": "en", "name": "Web Applications"},
+        {"code": 33377, "locale": "en", "name": "Innovation"},
+        {"code": 33426, "locale": "en", "name": "Software Engineering"},
+        {"code": 33348, "locale": "en", "name": "Project Management"},
+        {"code": 33335, "locale": "en", "name": "Software Development"},
+        {"code": 33347, "locale": "en", "name": "Entrepreneurship"}
+      ]
+    }
+  ],
+  "languages": [
+    {"code": "en", "language": "English", "fluency": "fully-fluent"},
+    {"code": "es", "language": "Spanish", "fluency": "fully-fluent"}
+  ],
+  "personalityTraitsResults": {
+    "groups": [
+      {"id": "extraversion", "order": 0, "median": 3.5, "stddev": 0.57},
+      {
+        "id": "openness-to-experience",
+        "order": 1,
+        "median": 3.41,
+        "stddev": 0.6
+      },
+      {"id": "conscientiousness", "order": 2, "median": 3.44, "stddev": 0.56},
+      {"id": "agreeableness", "order": 3, "median": 2.94, "stddev": 0.58},
+      {"id": "honesty-humility", "order": 4, "median": 3.19, "stddev": 0.62},
+      {"id": "emotionality", "order": 5, "median": 3.43, "stddev": 0.62}
+    ],
+    "analyses": [
+      {"groupId": "openness-to-experience", "analysis": 3.88},
+      {"groupId": "honesty-humility", "analysis": 4.13},
+      {"groupId": "agreeableness", "analysis": 3},
+      {"groupId": "altruism", "analysis": 4.5},
+      {"groupId": "conscientiousness", "analysis": 4.19},
+      {"groupId": "emotionality", "analysis": 3.75},
+      {"groupId": "extraversion", "analysis": 4}
+    ]
+  },
+  "professionalCultureGenomeResults": {
+    "groups": [
+      {
+        "id": "1",
+        "text": "Achievement oriented",
+        "answer": "all-the-time",
+        "order": 0
+      },
+      {"id": "13", "text": "Being fair", "answer": "all-the-time", "order": 1},
+      {
+        "id": "14",
+        "text": "Being honest",
+        "answer": "all-the-time",
+        "order": 2
+      },
+      {
+        "id": "33",
+        "text": "Having high ethical standards",
+        "answer": "all-the-time",
+        "order": 3
+      },
+      {
+        "id": "35",
+        "text": "Having integrity",
+        "answer": "all-the-time",
+        "order": 4
+      },
+      {
+        "id": "38",
+        "text": "Learning from mistakes",
+        "answer": "all-the-time",
+        "order": 5
+      },
+      {
+        "id": "42",
+        "text": "Paying attention to detail",
+        "answer": "all-the-time",
+        "order": 6
+      },
+      {
+        "id": "45",
+        "text": "Respecting individuals",
+        "answer": "all-the-time",
+        "order": 7
+      },
+      {
+        "id": "2",
+        "text": "Action oriented",
+        "answer": "most-of-the-time",
+        "order": 8
+      },
+      {
+        "id": "3",
+        "text": "Adaptability",
+        "answer": "most-of-the-time",
+        "order": 9
+      },
+      {
+        "id": "6",
+        "text": "Being analytical",
+        "answer": "most-of-the-time",
+        "order": 10
+      },
+      {
+        "id": "7",
+        "text": "Being calm",
+        "answer": "most-of-the-time",
+        "order": 11
+      },
+      {
+        "id": "10",
+        "text": "Being customer oriented",
+        "answer": "most-of-the-time",
+        "order": 12
+      },
+      {
+        "id": "12",
+        "text": "Being easygoing",
+        "answer": "most-of-the-time",
+        "order": 13
+      },
+      {
+        "id": "15",
+        "text": "Being innovative",
+        "answer": "most-of-the-time",
+        "order": 14
+      },
+      {
+        "id": "17",
+        "text": "Being people oriented",
+        "answer": "most-of-the-time",
+        "order": 15
+      },
+      {
+        "id": "24",
+        "text": "Being team oriented",
+        "answer": "most-of-the-time",
+        "order": 16
+      },
+      {
+        "id": "25",
+        "text": "Being tolerant",
+        "answer": "most-of-the-time",
+        "order": 17
+      },
+      {
+        "id": "26",
+        "text": "Being willing to experiment",
+        "answer": "most-of-the-time",
+        "order": 18
+      },
+      {
+        "id": "27",
+        "text": "Confronting conflict directly",
+        "answer": "most-of-the-time",
+        "order": 19
+      },
+      {
+        "id": "28",
+        "text": "Cooperative",
+        "answer": "most-of-the-time",
+        "order": 20
+      },
+      {
+        "id": "29",
+        "text": "Emphasis on professional growth",
+        "answer": "most-of-the-time",
+        "order": 21
+      },
+      {
+        "id": "30",
+        "text": "Emphasizing quality",
+        "answer": "most-of-the-time",
+        "order": 22
+      },
+      {
+        "id": "34",
+        "text": "Having high expectations for performance",
+        "answer": "most-of-the-time",
+        "order": 23
+      },
+      {
+        "id": "37",
+        "text": "Individual goals are transparent",
+        "answer": "most-of-the-time",
+        "order": 24
+      },
+      {
+        "id": "39",
+        "text": "Listening to customers",
+        "answer": "most-of-the-time",
+        "order": 25
+      },
+      {
+        "id": "41",
+        "text": "Not being constrained by many rules",
+        "answer": "most-of-the-time",
+        "order": 26
+      },
+      {
+        "id": "44",
+        "text": "Putting organization's goals before unit's goals",
+        "answer": "most-of-the-time",
+        "order": 27
+      },
+      {
+        "id": "47",
+        "text": "Security of employment",
+        "answer": "most-of-the-time",
+        "order": 28
+      },
+      {
+        "id": "48",
+        "text": "Sharing information freely",
+        "answer": "most-of-the-time",
+        "order": 29
+      },
+      {
+        "id": "49",
+        "text": "Stability",
+        "answer": "most-of-the-time",
+        "order": 30
+      },
+      {
+        "id": "50",
+        "text": "Taking individual responsibility",
+        "answer": "most-of-the-time",
+        "order": 31
+      },
+      {
+        "id": "51",
+        "text": "Taking initiative",
+        "answer": "most-of-the-time",
+        "order": 32
+      },
+      {
+        "id": "54",
+        "text": "Working in collaboration with others",
+        "answer": "most-of-the-time",
+        "order": 33
+      },
+      {
+        "id": "4",
+        "text": "Avoiding conflict",
+        "answer": "sometimes",
+        "order": 34
+      },
+      {"id": "8", "text": "Being careful", "answer": "sometimes", "order": 35},
+      {
+        "id": "9",
+        "text": "Being competitive",
+        "answer": "sometimes",
+        "order": 36
+      },
+      {
+        "id": "11",
+        "text": "Being decisive",
+        "answer": "sometimes",
+        "order": 37
+      },
+      {
+        "id": "16",
+        "text": "Being market driven",
+        "answer": "sometimes",
+        "order": 38
+      },
+      {"id": "18", "text": "Being precise", "answer": "sometimes", "order": 39},
+      {
+        "id": "19",
+        "text": "Being quick to take advantage of opportunities",
+        "answer": "sometimes",
+        "order": 40
+      },
+      {
+        "id": "20",
+        "text": "Being reflective",
+        "answer": "sometimes",
+        "order": 41
+      },
+      {
+        "id": "21",
+        "text": "Being results oriented",
+        "answer": "sometimes",
+        "order": 42
+      },
+      {
+        "id": "23",
+        "text": "Being supportive",
+        "answer": "sometimes",
+        "order": 43
+      },
+      {"id": "31", "text": "Fast moving", "answer": "sometimes", "order": 44},
+      {
+        "id": "40",
+        "text": "Making your numbers",
+        "answer": "sometimes",
+        "order": 45
+      },
+      {
+        "id": "43",
+        "text": "Predictability",
+        "answer": "sometimes",
+        "order": 46
+      },
+      {"id": "52", "text": "Urgency", "answer": "sometimes", "order": 47},
+      {
+        "id": "22",
+        "text": "Being rule oriented",
+        "answer": "rarely",
+        "order": 48
+      },
+      {"id": "32", "text": "Hard-driving", "answer": "rarely", "order": 49},
+      {
+        "id": "36",
+        "text": "High levels of conflict",
+        "answer": "rarely",
+        "order": 50
+      },
+      {"id": "46", "text": "Risk-taking", "answer": "rarely", "order": 51},
+      {
+        "id": "53",
+        "text": "What you know matters more than who you know",
+        "answer": "rarely",
+        "order": 52
+      },
+      {"id": "5", "text": "Being aggressive", "answer": "never", "order": 53}
+    ],
+    "analyses": [
+      {"groupId": "1", "section": "adaptability", "analysis": -0.2},
+      {"groupId": "1", "section": "integrity", "analysis": -0.32},
+      {"groupId": "1", "section": "collaborative", "analysis": -0.44},
+      {"groupId": "1", "section": "results-oriented", "analysis": 2.12},
+      {"groupId": "1", "section": "customer-oriented", "analysis": -0.32},
+      {"groupId": "1", "section": "detail-oriented", "analysis": -0.36},
+      {"groupId": "10", "section": "adaptability", "analysis": 0.15},
+      {"groupId": "10", "section": "integrity", "analysis": 0.03},
+      {"groupId": "10", "section": "collaborative", "analysis": 0.21},
+      {"groupId": "10", "section": "results-oriented", "analysis": -0.12},
+      {"groupId": "10", "section": "customer-oriented", "analysis": 2.4},
+      {"groupId": "10", "section": "detail-oriented", "analysis": 0.15},
+      {"groupId": "11", "section": "adaptability", "analysis": -0.18},
+      {"groupId": "11", "section": "integrity", "analysis": -0.02},
+      {"groupId": "11", "section": "collaborative", "analysis": -0.54},
+      {"groupId": "11", "section": "results-oriented", "analysis": 0.18},
+      {"groupId": "11", "section": "customer-oriented", "analysis": 0.16},
+      {"groupId": "11", "section": "detail-oriented", "analysis": -0.24},
+      {"groupId": "12", "section": "adaptability", "analysis": 0.33},
+      {"groupId": "12", "section": "integrity", "analysis": -0.99},
+      {"groupId": "12", "section": "collaborative", "analysis": 1.17},
+      {"groupId": "12", "section": "results-oriented", "analysis": -1.08},
+      {"groupId": "12", "section": "customer-oriented", "analysis": 0.24},
+      {"groupId": "12", "section": "detail-oriented", "analysis": -0.3},
+      {"groupId": "13", "section": "adaptability", "analysis": -0.08},
+      {"groupId": "13", "section": "integrity", "analysis": 1.92},
+      {"groupId": "13", "section": "collaborative", "analysis": 0.28},
+      {"groupId": "13", "section": "results-oriented", "analysis": -1.24},
+      {"groupId": "13", "section": "customer-oriented", "analysis": 0.2},
+      {"groupId": "13", "section": "detail-oriented", "analysis": -0.4},
+      {"groupId": "14", "section": "adaptability", "analysis": 0.04},
+      {"groupId": "14", "section": "integrity", "analysis": 2.68},
+      {"groupId": "14", "section": "collaborative", "analysis": 0.12},
+      {"groupId": "14", "section": "results-oriented", "analysis": -0.16},
+      {"groupId": "14", "section": "customer-oriented", "analysis": -0.24},
+      {"groupId": "14", "section": "detail-oriented", "analysis": 0.16},
+      {"groupId": "15", "section": "adaptability", "analysis": 1.8},
+      {"groupId": "15", "section": "integrity", "analysis": 0.27},
+      {"groupId": "15", "section": "collaborative", "analysis": -0.03},
+      {"groupId": "15", "section": "results-oriented", "analysis": 0.18},
+      {"groupId": "15", "section": "customer-oriented", "analysis": 0.12},
+      {"groupId": "15", "section": "detail-oriented", "analysis": 0.27},
+      {"groupId": "16", "section": "adaptability", "analysis": -0.1},
+      {"groupId": "16", "section": "integrity", "analysis": -0.32},
+      {"groupId": "16", "section": "collaborative", "analysis": -0.14},
+      {"groupId": "16", "section": "results-oriented", "analysis": 0.18},
+      {"groupId": "16", "section": "customer-oriented", "analysis": 1.04},
+      {"groupId": "16", "section": "detail-oriented", "analysis": -0.46},
+      {"groupId": "17", "section": "adaptability", "analysis": 0.06},
+      {"groupId": "17", "section": "integrity", "analysis": 0.03},
+      {"groupId": "17", "section": "collaborative", "analysis": 0.27},
+      {"groupId": "17", "section": "results-oriented", "analysis": -0.03},
+      {"groupId": "17", "section": "customer-oriented", "analysis": 0.6},
+      {"groupId": "17", "section": "detail-oriented", "analysis": -1.35},
+      {"groupId": "18", "section": "adaptability", "analysis": -0.54},
+      {"groupId": "18", "section": "integrity", "analysis": -0.16},
+      {"groupId": "18", "section": "collaborative", "analysis": -0.28},
+      {"groupId": "18", "section": "results-oriented", "analysis": -0.16},
+      {"groupId": "18", "section": "customer-oriented", "analysis": -0.24},
+      {"groupId": "18", "section": "detail-oriented", "analysis": 1.24},
+      {"groupId": "19", "section": "adaptability", "analysis": 0.92},
+      {"groupId": "19", "section": "integrity", "analysis": -0.68},
+      {"groupId": "19", "section": "collaborative", "analysis": -0.38},
+      {"groupId": "19", "section": "results-oriented", "analysis": -0.02},
+      {"groupId": "19", "section": "customer-oriented", "analysis": 0.3},
+      {"groupId": "19", "section": "detail-oriented", "analysis": -0.16},
+      {"groupId": "2", "section": "adaptability", "analysis": -0.12},
+      {"groupId": "2", "section": "integrity", "analysis": -0.51},
+      {"groupId": "2", "section": "collaborative", "analysis": -0.21},
+      {"groupId": "2", "section": "results-oriented", "analysis": 0.36},
+      {"groupId": "2", "section": "customer-oriented", "analysis": -0.15},
+      {"groupId": "2", "section": "detail-oriented", "analysis": -0.72},
+      {"groupId": "20", "section": "adaptability", "analysis": -0.04},
+      {"groupId": "20", "section": "integrity", "analysis": -0.88},
+      {"groupId": "20", "section": "collaborative", "analysis": -0.78},
+      {"groupId": "20", "section": "results-oriented", "analysis": -0.02},
+      {"groupId": "20", "section": "customer-oriented", "analysis": -0.46},
+      {"groupId": "20", "section": "detail-oriented", "analysis": 0.02},
+      {"groupId": "21", "section": "adaptability", "analysis": -0.24},
+      {"groupId": "21", "section": "integrity", "analysis": -0.2},
+      {"groupId": "21", "section": "collaborative", "analysis": -0.24},
+      {"groupId": "21", "section": "results-oriented", "analysis": 1.2},
+      {"groupId": "21", "section": "customer-oriented", "analysis": 0.22},
+      {"groupId": "21", "section": "detail-oriented", "analysis": -0.24},
+      {"groupId": "22", "section": "adaptability", "analysis": -0.63},
+      {"groupId": "22", "section": "integrity", "analysis": -0.12},
+      {"groupId": "22", "section": "collaborative", "analysis": -0.11},
+      {"groupId": "22", "section": "results-oriented", "analysis": 0.05},
+      {"groupId": "22", "section": "customer-oriented", "analysis": -0.05},
+      {"groupId": "22", "section": "detail-oriented", "analysis": 0.11},
+      {"groupId": "23", "section": "adaptability", "analysis": -0.14},
+      {"groupId": "23", "section": "integrity", "analysis": 0.34},
+      {"groupId": "23", "section": "collaborative", "analysis": 0.88},
+      {"groupId": "23", "section": "results-oriented", "analysis": -0.72},
+      {"groupId": "23", "section": "customer-oriented", "analysis": -0.06},
+      {"groupId": "23", "section": "detail-oriented", "analysis": -0.02},
+      {"groupId": "24", "section": "adaptability", "analysis": 0.06},
+      {"groupId": "24", "section": "integrity", "analysis": 0.36},
+      {"groupId": "24", "section": "collaborative", "analysis": 1.95},
+      {"groupId": "24", "section": "results-oriented", "analysis": 0.3},
+      {"groupId": "24", "section": "customer-oriented", "analysis": -0.09},
+      {"groupId": "24", "section": "detail-oriented", "analysis": 0.06},
+      {"groupId": "25", "section": "adaptability", "analysis": 1.68},
+      {"groupId": "25", "section": "integrity", "analysis": 1.26},
+      {"groupId": "25", "section": "collaborative", "analysis": 0.06},
+      {"groupId": "25", "section": "results-oriented", "analysis": -0.81},
+      {"groupId": "25", "section": "customer-oriented", "analysis": 0.03},
+      {"groupId": "25", "section": "detail-oriented", "analysis": -1.02},
+      {"groupId": "26", "section": "adaptability", "analysis": 1.77},
+      {"groupId": "26", "section": "integrity", "analysis": -0.3},
+      {"groupId": "26", "section": "collaborative", "analysis": -0.15},
+      {"groupId": "26", "section": "results-oriented", "analysis": -0.36},
+      {"groupId": "26", "section": "customer-oriented", "analysis": -0.24},
+      {"groupId": "26", "section": "detail-oriented", "analysis": -0.27},
+      {"groupId": "27", "section": "adaptability", "analysis": 0.33},
+      {"groupId": "27", "section": "integrity", "analysis": 0.06},
+      {"groupId": "27", "section": "collaborative", "analysis": -1.41},
+      {"groupId": "27", "section": "results-oriented", "analysis": 0.33},
+      {"groupId": "27", "section": "customer-oriented", "analysis": -0.48},
+      {"groupId": "27", "section": "detail-oriented", "analysis": 0.36},
+      {"groupId": "28", "section": "adaptability", "analysis": -0.27},
+      {"groupId": "28", "section": "integrity", "analysis": 0.09},
+      {"groupId": "28", "section": "collaborative", "analysis": 1.8},
+      {"groupId": "28", "section": "results-oriented", "analysis": -0.48},
+      {"groupId": "28", "section": "customer-oriented", "analysis": -0.24},
+      {"groupId": "28", "section": "detail-oriented", "analysis": -0.06},
+      {"groupId": "29", "section": "adaptability", "analysis": -0.24},
+      {"groupId": "29", "section": "integrity", "analysis": -1.2},
+      {"groupId": "29", "section": "collaborative", "analysis": -0.03},
+      {"groupId": "29", "section": "results-oriented", "analysis": 0.24},
+      {"groupId": "29", "section": "customer-oriented", "analysis": -0.03},
+      {"groupId": "29", "section": "detail-oriented", "analysis": -0.72},
+      {"groupId": "3", "section": "adaptability", "analysis": 1.23},
+      {"groupId": "3", "section": "integrity", "analysis": -0.81},
+      {"groupId": "3", "section": "collaborative", "analysis": 0.06},
+      {"groupId": "3", "section": "results-oriented", "analysis": -0.21},
+      {"groupId": "3", "section": "customer-oriented", "analysis": 0.09},
+      {"groupId": "3", "section": "detail-oriented", "analysis": -0.36},
+      {"groupId": "30", "section": "adaptability", "analysis": -0.12},
+      {"groupId": "30", "section": "integrity", "analysis": 0.27},
+      {"groupId": "30", "section": "collaborative", "analysis": 0},
+      {"groupId": "30", "section": "results-oriented", "analysis": -0.33},
+      {"groupId": "30", "section": "customer-oriented", "analysis": 0.75},
+      {"groupId": "30", "section": "detail-oriented", "analysis": 1.86},
+      {"groupId": "31", "section": "adaptability", "analysis": 1.02},
+      {"groupId": "31", "section": "integrity", "analysis": -0.74},
+      {"groupId": "31", "section": "collaborative", "analysis": -0.42},
+      {"groupId": "31", "section": "results-oriented", "analysis": 0.2},
+      {"groupId": "31", "section": "customer-oriented", "analysis": -0.26},
+      {"groupId": "31", "section": "detail-oriented", "analysis": -0.2},
+      {"groupId": "32", "section": "adaptability", "analysis": 0.04},
+      {"groupId": "32", "section": "integrity", "analysis": -0.33},
+      {"groupId": "32", "section": "collaborative", "analysis": -0.44},
+      {"groupId": "32", "section": "results-oriented", "analysis": 0.28},
+      {"groupId": "32", "section": "customer-oriented", "analysis": -0.17},
+      {"groupId": "32", "section": "detail-oriented", "analysis": -0.07},
+      {"groupId": "33", "section": "adaptability", "analysis": -0.2},
+      {"groupId": "33", "section": "integrity", "analysis": 3.04},
+      {"groupId": "33", "section": "collaborative", "analysis": 0.28},
+      {"groupId": "33", "section": "results-oriented", "analysis": 0.04},
+      {"groupId": "33", "section": "customer-oriented", "analysis": 0.08},
+      {"groupId": "33", "section": "detail-oriented", "analysis": 0.16},
+      {"groupId": "34", "section": "adaptability", "analysis": 0.39},
+      {"groupId": "34", "section": "integrity", "analysis": -0.21},
+      {"groupId": "34", "section": "collaborative", "analysis": -0.24},
+      {"groupId": "34", "section": "results-oriented", "analysis": 1.74},
+      {"groupId": "34", "section": "customer-oriented", "analysis": -0.21},
+      {"groupId": "34", "section": "detail-oriented", "analysis": 0.06},
+      {"groupId": "35", "section": "adaptability", "analysis": -0.04},
+      {"groupId": "35", "section": "integrity", "analysis": 3.08},
+      {"groupId": "35", "section": "collaborative", "analysis": 0.32},
+      {"groupId": "35", "section": "results-oriented", "analysis": -0.08},
+      {"groupId": "35", "section": "customer-oriented", "analysis": -0.12},
+      {"groupId": "35", "section": "detail-oriented", "analysis": 0.08},
+      {"groupId": "36", "section": "adaptability", "analysis": -0.59},
+      {"groupId": "36", "section": "integrity", "analysis": -0.35},
+      {"groupId": "36", "section": "collaborative", "analysis": -0.43},
+      {"groupId": "36", "section": "results-oriented", "analysis": -0.02},
+      {"groupId": "36", "section": "customer-oriented", "analysis": 0.01},
+      {"groupId": "36", "section": "detail-oriented", "analysis": -0.11},
+      {"groupId": "37", "section": "adaptability", "analysis": -0.06},
+      {"groupId": "37", "section": "integrity", "analysis": 1.2},
+      {"groupId": "37", "section": "collaborative", "analysis": 0.33},
+      {"groupId": "37", "section": "results-oriented", "analysis": -0.48},
+      {"groupId": "37", "section": "customer-oriented", "analysis": 0.21},
+      {"groupId": "37", "section": "detail-oriented", "analysis": -0.9},
+      {"groupId": "38", "section": "adaptability", "analysis": 3.16},
+      {"groupId": "38", "section": "integrity", "analysis": -1.4},
+      {"groupId": "38", "section": "collaborative", "analysis": -1.08},
+      {"groupId": "38", "section": "results-oriented", "analysis": 0.08},
+      {"groupId": "38", "section": "customer-oriented", "analysis": -0.92},
+      {"groupId": "38", "section": "detail-oriented", "analysis": -0.72},
+      {"groupId": "39", "section": "adaptability", "analysis": 0},
+      {"groupId": "39", "section": "integrity", "analysis": 0.15},
+      {"groupId": "39", "section": "collaborative", "analysis": 0.18},
+      {"groupId": "39", "section": "results-oriented", "analysis": 0},
+      {"groupId": "39", "section": "customer-oriented", "analysis": 2.37},
+      {"groupId": "39", "section": "detail-oriented", "analysis": 0.24},
+      {"groupId": "4", "section": "adaptability", "analysis": -0.76},
+      {"groupId": "4", "section": "integrity", "analysis": -0.32},
+      {"groupId": "4", "section": "collaborative", "analysis": 0.86},
+      {"groupId": "4", "section": "results-oriented", "analysis": -0.58},
+      {"groupId": "4", "section": "customer-oriented", "analysis": -0.14},
+      {"groupId": "4", "section": "detail-oriented", "analysis": -0.18},
+      {"groupId": "40", "section": "adaptability", "analysis": -0.86},
+      {"groupId": "40", "section": "integrity", "analysis": -0.22},
+      {"groupId": "40", "section": "collaborative", "analysis": -0.34},
+      {"groupId": "40", "section": "results-oriented", "analysis": 0.78},
+      {"groupId": "40", "section": "customer-oriented", "analysis": 0.36},
+      {"groupId": "40", "section": "detail-oriented", "analysis": -0.6},
+      {"groupId": "41", "section": "adaptability", "analysis": 1.26},
+      {"groupId": "41", "section": "integrity", "analysis": -0.54},
+      {"groupId": "41", "section": "collaborative", "analysis": 0.03},
+      {"groupId": "41", "section": "results-oriented", "analysis": -0.81},
+      {"groupId": "41", "section": "customer-oriented", "analysis": -0.69},
+      {"groupId": "41", "section": "detail-oriented", "analysis": -0.72},
+      {"groupId": "42", "section": "adaptability", "analysis": -0.32},
+      {"groupId": "42", "section": "integrity", "analysis": -0.12},
+      {"groupId": "42", "section": "collaborative", "analysis": 0.08},
+      {"groupId": "42", "section": "results-oriented", "analysis": 0.36},
+      {"groupId": "42", "section": "customer-oriented", "analysis": -0.48},
+      {"groupId": "42", "section": "detail-oriented", "analysis": 2.96},
+      {"groupId": "43", "section": "adaptability", "analysis": -1.26},
+      {"groupId": "43", "section": "integrity", "analysis": -0.12},
+      {"groupId": "43", "section": "collaborative", "analysis": -0.02},
+      {"groupId": "43", "section": "results-oriented", "analysis": -0.36},
+      {"groupId": "43", "section": "customer-oriented", "analysis": 0.1},
+      {"groupId": "43", "section": "detail-oriented", "analysis": -0.18},
+      {"groupId": "44", "section": "adaptability", "analysis": -0.03},
+      {"groupId": "44", "section": "integrity", "analysis": -0.72},
+      {"groupId": "44", "section": "collaborative", "analysis": 0.54},
+      {"groupId": "44", "section": "results-oriented", "analysis": 0.12},
+      {"groupId": "44", "section": "customer-oriented", "analysis": -0.15},
+      {"groupId": "44", "section": "detail-oriented", "analysis": -0.39},
+      {"groupId": "45", "section": "adaptability", "analysis": 0},
+      {"groupId": "45", "section": "integrity", "analysis": 2.12},
+      {"groupId": "45", "section": "collaborative", "analysis": 1.4},
+      {"groupId": "45", "section": "results-oriented", "analysis": -0.8},
+      {"groupId": "45", "section": "customer-oriented", "analysis": -0.12},
+      {"groupId": "45", "section": "detail-oriented", "analysis": -0.44},
+      {"groupId": "46", "section": "adaptability", "analysis": 0.59},
+      {"groupId": "46", "section": "integrity", "analysis": -0.15},
+      {"groupId": "46", "section": "collaborative", "analysis": -0.27},
+      {"groupId": "46", "section": "results-oriented", "analysis": 0.01},
+      {"groupId": "46", "section": "customer-oriented", "analysis": -0.02},
+      {"groupId": "46", "section": "detail-oriented", "analysis": -0.13},
+      {"groupId": "47", "section": "adaptability", "analysis": -0.48},
+      {"groupId": "47", "section": "integrity", "analysis": -0.03},
+      {"groupId": "47", "section": "collaborative", "analysis": -0.21},
+      {"groupId": "47", "section": "results-oriented", "analysis": -1.71},
+      {"groupId": "47", "section": "customer-oriented", "analysis": -0.27},
+      {"groupId": "47", "section": "detail-oriented", "analysis": -0.33},
+      {"groupId": "48", "section": "adaptability", "analysis": -1.02},
+      {"groupId": "48", "section": "integrity", "analysis": -0.33},
+      {"groupId": "48", "section": "collaborative", "analysis": 0.9},
+      {"groupId": "48", "section": "results-oriented", "analysis": -0.72},
+      {"groupId": "48", "section": "customer-oriented", "analysis": 0.09},
+      {"groupId": "48", "section": "detail-oriented", "analysis": -0.27},
+      {"groupId": "49", "section": "adaptability", "analysis": 0.03},
+      {"groupId": "49", "section": "integrity", "analysis": -1.11},
+      {"groupId": "49", "section": "collaborative", "analysis": -0.36},
+      {"groupId": "49", "section": "results-oriented", "analysis": -0.24},
+      {"groupId": "49", "section": "customer-oriented", "analysis": -0.63},
+      {"groupId": "49", "section": "detail-oriented", "analysis": -1.95},
+      {"groupId": "5", "section": "adaptability", "analysis": 0},
+      {"groupId": "5", "section": "integrity", "analysis": 0},
+      {"groupId": "5", "section": "collaborative", "analysis": 0},
+      {"groupId": "5", "section": "results-oriented", "analysis": 0},
+      {"groupId": "5", "section": "customer-oriented", "analysis": 0},
+      {"groupId": "5", "section": "detail-oriented", "analysis": 0},
+      {"groupId": "50", "section": "adaptability", "analysis": -0.48},
+      {"groupId": "50", "section": "integrity", "analysis": -0.03},
+      {"groupId": "50", "section": "collaborative", "analysis": -1.14},
+      {"groupId": "50", "section": "results-oriented", "analysis": -0.33},
+      {"groupId": "50", "section": "customer-oriented", "analysis": 0.06},
+      {"groupId": "50", "section": "detail-oriented", "analysis": -0.96},
+      {"groupId": "51", "section": "adaptability", "analysis": -0.09},
+      {"groupId": "51", "section": "integrity", "analysis": -0.03},
+      {"groupId": "51", "section": "collaborative", "analysis": -0.03},
+      {"groupId": "51", "section": "results-oriented", "analysis": 0.33},
+      {"groupId": "51", "section": "customer-oriented", "analysis": 0.12},
+      {"groupId": "51", "section": "detail-oriented", "analysis": -2.1},
+      {"groupId": "52", "section": "adaptability", "analysis": -0.1},
+      {"groupId": "52", "section": "integrity", "analysis": -0.18},
+      {"groupId": "52", "section": "collaborative", "analysis": -1.12},
+      {"groupId": "52", "section": "results-oriented", "analysis": 0.26},
+      {"groupId": "52", "section": "customer-oriented", "analysis": -0.08},
+      {"groupId": "52", "section": "detail-oriented", "analysis": -0.3},
+      {"groupId": "53", "section": "adaptability", "analysis": -0.63},
+      {"groupId": "53", "section": "integrity", "analysis": -0.24},
+      {"groupId": "53", "section": "collaborative", "analysis": -0.76},
+      {"groupId": "53", "section": "results-oriented", "analysis": 0.24},
+      {"groupId": "53", "section": "customer-oriented", "analysis": -0.63},
+      {"groupId": "53", "section": "detail-oriented", "analysis": -0.06},
+      {"groupId": "54", "section": "adaptability", "analysis": 0.09},
+      {"groupId": "54", "section": "integrity", "analysis": 0.18},
+      {"groupId": "54", "section": "collaborative", "analysis": 2.13},
+      {"groupId": "54", "section": "results-oriented", "analysis": 0.33},
+      {"groupId": "54", "section": "customer-oriented", "analysis": -0.09},
+      {"groupId": "54", "section": "detail-oriented", "analysis": 0},
+      {"groupId": "6", "section": "adaptability", "analysis": -0.39},
+      {"groupId": "6", "section": "integrity", "analysis": -0.81},
+      {"groupId": "6", "section": "collaborative", "analysis": -0.45},
+      {"groupId": "6", "section": "results-oriented", "analysis": 0.12},
+      {"groupId": "6", "section": "customer-oriented", "analysis": -0.81},
+      {"groupId": "6", "section": "detail-oriented", "analysis": 0.27},
+      {"groupId": "7", "section": "adaptability", "analysis": 0.48},
+      {"groupId": "7", "section": "integrity", "analysis": -0.6},
+      {"groupId": "7", "section": "collaborative", "analysis": 0.39},
+      {"groupId": "7", "section": "results-oriented", "analysis": -0.3},
+      {"groupId": "7", "section": "customer-oriented", "analysis": 0.09},
+      {"groupId": "7", "section": "detail-oriented", "analysis": -0.48},
+      {"groupId": "8", "section": "adaptability", "analysis": -1.28},
+      {"groupId": "8", "section": "integrity", "analysis": -0.18},
+      {"groupId": "8", "section": "collaborative", "analysis": 0.1},
+      {"groupId": "8", "section": "results-oriented", "analysis": -0.5},
+      {"groupId": "8", "section": "customer-oriented", "analysis": -0.18},
+      {"groupId": "8", "section": "detail-oriented", "analysis": 0.3},
+      {"groupId": "9", "section": "adaptability", "analysis": -0.02},
+      {"groupId": "9", "section": "integrity", "analysis": -0.4},
+      {"groupId": "9", "section": "collaborative", "analysis": -0.9},
+      {"groupId": "9", "section": "results-oriented", "analysis": 0.02},
+      {"groupId": "9", "section": "customer-oriented", "analysis": -0.18},
+      {"groupId": "9", "section": "detail-oriented", "analysis": -0.6}
+    ]
+  }
+}
