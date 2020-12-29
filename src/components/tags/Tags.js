@@ -12,9 +12,9 @@ export const Tags = ({
   onClick,
   sort,
 }) => {
-  let tags = items.sort(sort).map((item) => (
+  let tags = items.sort(sort).map((item, index) => (
     <Tag
-      key={itemKey(item)}
+      key={index}
       closable={editable}
       onClose={() => handleDelete(item)}
       onClick={() => onClick(item)}>
