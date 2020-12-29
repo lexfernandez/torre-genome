@@ -30,14 +30,13 @@ export const Behavior = ({personalityTraits, professionalCulture}) => {
   );
 };
 
-const results = PropTypes.objectOf(
-  PropTypes.shape({
+Behavior.propTypes = {
+  personalityTraits: PropTypes.shape({
     groups: PropTypes.array,
     analyses: PropTypes.array,
   }),
-);
-
-Behavior.propTypes = {
-  personalityTraits: results,
-  professionalCulture: results,
+  professionalCulture: PropTypes.shape({
+    groups: PropTypes.array,
+    analyses: PropTypes.array,
+  }),
 };
