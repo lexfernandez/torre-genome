@@ -1,17 +1,14 @@
 .Header {
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .Name {
   font-size: 20px;
   word-wrap: break-word;
 }
 
-.Verified {
-  color: green;
-}
-
-.PendingVerification {
-  color: red;
+.VerificationBadge {
+  margin-top: 20%;
+  font-size: 30px;
 }
 
 .Picture {

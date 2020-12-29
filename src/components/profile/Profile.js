@@ -1,10 +1,6 @@
 import React from 'react';
-import {Row, Col, Avatar, Space, Typography, Divider} from 'antd';
-import {
-  AntDesignOutlined,
-  SafetyCertificateOutlined,
-  SecurityScanOutlined,
-} from '@ant-design/icons';
+import {Row, Col, Avatar, Typography, Divider, Badge} from 'antd';
+import {AntDesignOutlined, SafetyCertificateTwoTone} from '@ant-design/icons';
 import MediaLinks from '../media-links';
 import classes from './Profile.module.css';
 import PropTypes from 'prop-types';
@@ -19,9 +15,19 @@ export const Profile = ({
   opportunities,
   languages,
 }) => {
-  let verified = <SafetyCertificateOutlined className={classes.Verified} />;
+  let verified = (
+    <SafetyCertificateTwoTone
+      twoToneColor="#008000"
+      className={[classes.VerificationBadge, classes.Name]}
+    />
+  );
   if (!person.verified) {
-    verified = <SecurityScanOutlined className={classes.PendingVerification} />;
+    verified = (
+      <SafetyCertificateTwoTone
+        twoToneColor="red"
+        className={[classes.VerificationBadge, classes.Name]}
+      />
+    );
   }
 
   let strengthsNode = null;
@@ -84,27 +90,32 @@ export const Profile = ({
   return (
     <Row align="middle">
       <Col span={24}>
-        <Row>
-          <Col>
-            <Avatar
-              size={{xs: 40, sm: 40, md: 64, lg: 64, xl: 80, xxl: 80}}
-              src={person.picture}
-              className={classes.Picture}
-              icon={<AntDesignOutlined />}
-            />
-          </Col>
-          <Col flex="auto" className={classes.Header}>
-            <Row justify="start" align="middle" className={classes.Name}>
-              <Space>
-                <div>{person.name}</div>
-                <div>{verified}</div>
-              </Space>
-            </Row>
-            <Row>
-              <Text>{person.professionalHeadline}</Text>
-            </Row>
-            <Row>
-              <Text type="secondary">{person.location.shortName}</Text>
+        <Row style={{paddingTop: '10px'}}>
+          <Col span={24}>
+            <Row justify="center" align="middle">
+              <Col flex="none">
+                <Badge count={verified}>
+                  <Avatar
+                    size={{xs: 64, sm: 64, md: 64, lg: 64, xl: 80, xxl: 80}}
+                    src={person.picture}
+                    className={classes.Picture}
+                    icon={<AntDesignOutlined />}
+                  />
+                </Badge>
+              </Col>
+              <Col flex="auto" className={classes.Header}>
+                <Row>
+                  <Col span={24}>
+                    <Row className={classes.Name}>{person.name}</Row>
+                  </Col>
+                </Row>
+                <Row>
+                  <Text>{person.professionalHeadline}</Text>
+                </Row>
+                <Row>
+                  <Text type="secondary">{person.location.shortName}</Text>
+                </Row>
+              </Col>
             </Row>
           </Col>
         </Row>
