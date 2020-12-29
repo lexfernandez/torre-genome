@@ -24,11 +24,15 @@ export const Behavior = ({personalityTraits, professionalCulture}) => {
   if (professionalCulture) {
     professionalCultureNode = (
       <Row>
-        <Divider orientation="left">Professional culture</Divider>
-        <ProfessionalCulture
-          groups={professionalCulture.groups}
-          analyses={professionalCulture.analyses}
-        />
+        <Col span={24}>
+          <Divider orientation="left">Professional culture</Divider>
+        </Col>
+        <Col span={24}>
+          <ProfessionalCulture
+            groups={professionalCulture.groups}
+            analyses={professionalCulture.analyses}
+          />
+        </Col>
       </Row>
     );
   }
