@@ -12,25 +12,6 @@ import {ReactComponent as OpennessToExperience} from '../../assets/openness-to-e
 import {Arrow} from './Arrow';
 import {InfoCircleOutlined} from '@ant-design/icons';
 
-const getNormalDistribution = (trait) => {
-  switch (trait) {
-    case 'openness-to-experience':
-      return <OpennessToExperience width="100%" height="100%" />;
-    case 'honesty-humility':
-      return <HonestyHumility width="100%" height="100%" />;
-    case 'agreeableness':
-      return <Agreeableness width="100%" height="100%" />;
-    case 'conscientiousness':
-      return <Conscientiousness width="100%" height="100%" />;
-    case 'emotionality':
-      return <Emotionality width="100%" height="100%" />;
-    case 'extraversion':
-      return <Extraversion width="100%" height="100%" />;
-    default:
-      return null;
-  }
-};
-
 const normalDistribution = {
   extraversion: {
     left: 'Solitary / reserved',
