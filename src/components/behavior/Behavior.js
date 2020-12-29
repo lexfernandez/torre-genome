@@ -6,25 +6,38 @@ import classes from './Behavior.module.css';
 import ProfessionalCulture from '../professional-culture';
 
 export const Behavior = ({personalityTraits, professionalCulture}) => {
-  return (
-    <Row>
-      <Col span={24}>
-        <Row>
-          <Col span={24}>
+  let personalityTraitsNode = null;
+  if (personalityTraits) {
+    personalityTraitsNode = (
+      <Row>
+        <Col span={24}>
           <Divider orientation="left">Personality traits</Divider>
           <PersonalityTraits
             groups={personalityTraits.groups}
             analyses={personalityTraits.analyses}
           />
-          </Col>
-        </Row>
-        <Row>
-          <Divider orientation="left">Professional culture</Divider>
-          <ProfessionalCulture
-            groups={professionalCulture.groups}
-            analyses={professionalCulture.analyses}
-          />
-        </Row>
+        </Col>
+      </Row>
+    );
+  }
+
+  let professionalCultureNode = null;
+  if (professionalCulture) {
+    professionalCultureNode = (
+      <Row>
+        <Divider orientation="left">Professional culture</Divider>
+        <ProfessionalCulture
+          groups={professionalCulture.groups}
+          analyses={professionalCulture.analyses}
+        />
+      </Row>
+    );
+  }
+  return (
+    <Row>
+      <Col span={24}>
+        {personalityTraitsNode}
+        {professionalCultureNode}
       </Col>
     </Row>
   );
