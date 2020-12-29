@@ -6,6 +6,7 @@ import fakeGenome from './genome.json';
 import Behavior from '../../components/behavior';
 import {useParams} from 'react-router-dom';
 import * as Api from '../../api/genome-api';
+import Card from '../../components/card';
 
 export const Genome = () => {
   const [genome, setGenome] = useState(undefined);
@@ -56,15 +57,19 @@ export const Genome = () => {
       <Row gutter={[16, 16]}>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
           <div className={classes.Card}>{profile}</div>
+            <Card>{profile}</Card>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
           <div className={classes.Card}>Reputation</div>
+            <Card></Card>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
           <div className={classes.Card}>Resume</div>
+            <Card></Card>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
           <div className={classes.Card}>{behavior}</div>
+            <Card>{behavior}</Card>
         </Col>
       </Row>
     </>
