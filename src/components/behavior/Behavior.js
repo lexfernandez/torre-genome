@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {Row, Col, Divider} from 'antd';
 import PersonalityTraits from '../personality-traits';
-import classes from './Behavior.module.css';
 import ProfessionalCulture from '../professional-culture';
 
 export const Behavior = ({personalityTraits, professionalCulture}) => {
