@@ -30,6 +30,15 @@ export const Genome = () => {
     getData();
   }, [username]);
 
+  let notFound = (
+    <Row>
+      <Col span={24}>
+        <strong>404:</strong>Sorry, The time is out, the feature will be
+        delivered in the next stage
+      </Col>
+    </Row>
+  );
+
   let profile = <Skeleton active paragraph={{rows: 5}} />;
   if (genome) {
     profile = (
@@ -41,6 +50,15 @@ export const Genome = () => {
         languages={genome.languages}
       />
     );
+  }
+
+  let reputation = <Skeleton active paragraph={{rows: 5}} />;
+  if (genome) {
+    reputation = notFound;
+  }
+  let professionalExperience = <Skeleton active paragraph={{rows: 5}} />;
+  if (genome) {
+    professionalExperience = notFound;
   }
 
   let behavior = <Skeleton active paragraph={{rows: 5}} />;
@@ -78,12 +96,12 @@ export const Genome = () => {
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
           <Badge.Ribbon text="Reputation">
-            <Card></Card>
+            <Card>{reputation}</Card>
           </Badge.Ribbon>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
           <Badge.Ribbon text="Professional Experience">
-            <Card></Card>
+            <Card>{professionalExperience}</Card>
           </Badge.Ribbon>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
