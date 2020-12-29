@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import PropTypes from 'prop-types';
-import {Tooltip} from 'antd';
+import {Tooltip, Row, Col, Badge} from 'antd';
+import {PersonContext} from '../../contexts';
 
 const responseToValue = (answer) => {
   switch (answer) {
@@ -17,7 +18,10 @@ const responseToValue = (answer) => {
   }
 };
 
+const getFirstName = (name) => name.split(' ').reverse().pop();
+
 export const Result = ({group, analyses}) => {
+  const person = useContext(PersonContext);
   let total = responseToValue(group.answer);
 
   let validAnalyses = analyses
@@ -30,13 +34,33 @@ export const Result = ({group, analyses}) => {
 
   let tooltipDetails = <div>no results</div>;
   if (validAnalyses.length) {
-    tooltipDetails = validAnalyses.map(({section, analysis, percentage}) => {
-      return (
-        <div key={analysis.section}>
-          -{section}({percentage}%)
-        </div>
-      );
-    });
+    tooltipDetails = (
+      <Row>
+        <Col span={24}>
+          <Row>
+            <Col>
+              {group.text} is charasteristic of {getFirstName(person.name)}{' '}
+              {group.answer}
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              This trait reveals a correlation with the folloring culture
+              dynamics:
+            </Col>
+          </Row>
+          {validAnalyses.map(({section, analysis, percentage}, index) => {
+            return (
+              <Row key={index}>
+                <Col span={24}>
+                  <Badge color="#f50" text={`${section}: ${percentage}%`} />
+                </Col>
+              </Row>
+            );
+          })}
+        </Col>
+      </Row>
+    );
   }
 
   return (

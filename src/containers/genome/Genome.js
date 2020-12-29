@@ -6,6 +6,7 @@ import Behavior from '../../components/behavior';
 import {useParams} from 'react-router-dom';
 import * as Api from '../../api/genome-api';
 import Card from '../../components/card';
+import {PersonContext} from '../../contexts';
 
 export const Genome = () => {
   const [genome, setGenome] = useState(undefined);
@@ -47,10 +48,12 @@ export const Genome = () => {
   let behavior = <Skeleton active paragraph={{rows: 5}} />;
   if (genome) {
     behavior = (
-      <Behavior
-        personalityTraits={genome.personalityTraitsResults}
-        professionalCulture={genome.professionalCultureGenomeResults}
-      />
+      <PersonContext.Provider value={genome.person}>
+        <Behavior
+          personalityTraits={genome.personalityTraitsResults}
+          professionalCulture={genome.professionalCultureGenomeResults}
+        />
+      </PersonContext.Provider>
     );
   }
 
