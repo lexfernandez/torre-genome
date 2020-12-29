@@ -36,7 +36,7 @@ export const HexGraph = ({
           <use
             xlinkHref="#sector"
             transform={`rotate(${rotation})`}
-            fill={selected == index ? 'white' : '#1f1f1f'}></use>
+            fill={selected === index ? 'white' : '#1f1f1f'}></use>
         </g>
       </a>
     );
