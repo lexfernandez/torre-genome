@@ -12,6 +12,94 @@ You can access the site using [Genome](http://torre-genome.s3-website-us-west-2.
 - Provide more details about the culture dynamics, at first glance you don't know what is that blue bar
 ![](images/professional-culture.png)
 
+- Space between columns in my opinion was too much
+![](images/space-between-columns.png
+)
+
+- Alexander said in a [video](https://cdn2.hubspot.net/hubfs/5943984/Torre%20-%20Our%20journey.mp4)
+that you guys killed the resume and create something totally different with torre, but you still have résumé as a column
+
+![](images\kill-resume.png)
+
+
+# Data Analysis
+
+- The results for the personality traits were no right, the values shown for each trait were not valid, in fact, it was from another trait.
+
+**extraversion details**
+
+![](images\traits-details.png)
+
+as you can see in the following JSON (taken from my genome), the result analysis for extraversion is 4; it isn't 3.88; that value is for openness-to-experience
+
+```json
+"personalityTraitsResults": {
+"groups": [
+{"id": "extraversion", "order": 0, "median": 3.5, "stddev": 0.57},
+{
+"id": "openness-to-experience",
+"order": 1,
+"median": 3.41,
+"stddev": 0.6
+},
+{"id": "conscientiousness", "order": 2, "median": 3.44, "stddev": 0.56},
+{"id": "agreeableness", "order": 3, "median": 2.94, "stddev": 0.58},
+{"id": "honesty-humility", "order": 4, "median": 3.19, "stddev": 0.62},
+{"id": "emotionality", "order": 5, "median": 3.43, "stddev": 0.62}
+],
+"analyses": [
+{"groupId": "openness-to-experience", "analysis": 3.88},
+{"groupId": "honesty-humility", "analysis": 4.13},
+{"groupId": "agreeableness", "analysis": 3},
+{"groupId": "altruism", "analysis": 4.5},
+{"groupId": "conscientiousness", "analysis": 4.19},
+{"groupId": "emotionality", "analysis": 3.75},
+{"groupId": "extraversion", "analysis": 4}
+]
+},
+
+```
+
+# You should take a look at 
+- How the about section is being display
+
+![](images\about-section.png)
+
+-The verified badge is on top of the image
+
+-The column name is being shown as a ribbon
+
+-The name, headline, location, and summary are more noticeable
+
+- Sub-sections are more compact
+
+![](images\sub-section.png)
+
+-The division and the subsection title are in the same line, which provides a clear view
+
+-The tags are ordered by length; shorter words will be shown first; that way, we prevent death space and more lines than required
+
+- The resume section was rename to **Professional Experience**
+![](images\former-resume.png)
+
+- The personality traits now shows a genome with the different traits, when you hover/click on each you will see the details.
+
+![](images\personality-tratis.png)
+
+-The details now show the rigth analysis value
+-The normal distribution is still being show but in a more interactive way
+-The HEXACO group names are being shown
+
+
+- The professional culture section now is being display using tabs to group the culture values by frecuency
+
+![](images\new-professional-culture.png)
+![](images\new-professional-culture-2.png)
+
+-Instead of having a huge repetitive blue bar, we now group the values
+-The values are being display alternating the position to provide a clean view and brin more flow to the info.
+
+
 # LOG
 
 **_commit 7805c0366b0afc7822351550fe3fb477ce6e10c5 (HEAD -> develop, origin/develop)_**
