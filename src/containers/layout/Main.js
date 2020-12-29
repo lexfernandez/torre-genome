@@ -14,7 +14,8 @@ import {
 import {ReactComponent as Logo} from '../../assets/logo.svg';
 import {Link, Switch, Route} from 'react-router-dom';
 import Loading from '../../components/loading';
-const Genome = lazy(() => import('../../components/genome'));
+
+const Genome = lazy(() => import('../genome'));
 
 const {Header, Sider, Content} = Layout;
 

@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import {Col, Row, Skeleton} from 'antd';
 import classes from './Genome.module.css';
-import {Profile} from '../profile/Profile';
+import {Profile} from '../../components/profile/Profile';
 import fakeGenome from './genome.json';
-import Behavior from '../behavior';
+import Behavior from '../../components/behavior';
 import {useParams} from 'react-router-dom';
 import * as Api from '../../api/genome-api';
 
