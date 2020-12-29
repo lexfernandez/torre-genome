@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import PropTypes from 'prop-types';
 import {Tooltip, Row, Col, Badge} from 'antd';
 import {PersonContext} from '../../contexts';
+import {getFirstName} from '../../utils';
 
 const responseToValue = (answer) => {
   switch (answer) {
@@ -17,8 +18,6 @@ const responseToValue = (answer) => {
       return 0;
   }
 };
-
-const getFirstName = (name) => name.split(' ').reverse().pop();
 
 export const Result = ({group, analyses}) => {
   const person = useContext(PersonContext);
