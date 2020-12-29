@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import {Tooltip, Row, Col, Badge} from 'antd';
 import {PersonContext} from '../../contexts';
 import {getFirstName} from '../../utils';
+import classes from './ProfessionalCulture.module.css';
 
 const responseToValue = (answer) => {
   switch (answer) {
@@ -52,7 +53,14 @@ export const Result = ({group, analyses}) => {
             return (
               <Row key={index}>
                 <Col span={24}>
-                  <Badge color="#f50" text={`${section}: ${percentage}%`} />
+                  <Badge
+                    color="#f50"
+                    text={
+                      <span className={classes.Title}>
+                        {section.split('-').join(' ')}: {percentage}%
+                      </span>
+                    }
+                  />
                 </Col>
               </Row>
             );
