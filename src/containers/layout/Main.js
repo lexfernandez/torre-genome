@@ -16,6 +16,7 @@ import {Link, Switch, Route} from 'react-router-dom';
 import Loading from '../../components/loading';
 
 const Genome = lazy(() => import('../genome'));
+const UsernameForm = lazy(() => import('../../components/username-form'));
 
 const {Header, Sider, Content} = Layout;
 
@@ -68,6 +69,7 @@ const Main = () => {
           <Suspense fallback={<Loading />}>
             <Switch>
               <Route path="/my-genome/:username" component={Genome} />
+              <Route path="/my-genome/" component={UsernameForm} />
               <Route path="/search" component={Genome} />
               <Route path="/jobs" component={Genome} />
               <Route path="/notifications" component={Genome} />
