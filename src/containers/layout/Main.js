@@ -66,7 +66,7 @@ const Main = () => {
         <Content className={classes.Content}>
           <Suspense fallback={<Loading />}>
             <Switch>
-              <Route path="/my-genome" component={Genome} />
+              <Route path="/my-genome/:username" component={Genome} />
               <Route path="/search" component={Genome} />
               <Route path="/jobs" component={Genome} />
               <Route path="/notifications" component={Genome} />
