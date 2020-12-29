@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import './HexGraph.module.css';
 
@@ -10,6 +10,7 @@ export const HexGraph = ({
   strokeWidth,
   initialPosition,
 }) => {
+  const [selected, setSelected] = useState(0);
   let elementsRotation = [];
 
   for (let i = 0; i < pieces; i++) {
@@ -23,10 +24,19 @@ export const HexGraph = ({
         key={index}
         href="#"
         xlinkHref="#"
-        onClick={() => onClick(index)}
-        onMouseOver={() => onHover(index)}>
+        onClick={() => {
+          onClick(index);
+          setSelected(index);
+        }}
+        onMouseOver={() => {
+          onHover(index);
+          setSelected(index);
+        }}>
         <g>
-          <use xlinkHref="#sector" transform={`rotate(${rotation})`}></use>
+          <use
+            xlinkHref="#sector"
+            transform={`rotate(${rotation})`}
+            fill={selected == index ? 'white' : '#1f1f1f'}></use>
         </g>
       </a>
     );
