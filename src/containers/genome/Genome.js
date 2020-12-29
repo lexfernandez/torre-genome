@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Alert, Col, Row, Skeleton} from 'antd';
+import {Alert, Badge, Col, Row, Skeleton} from 'antd';
 import {Profile} from '../../components/profile/Profile';
 import fakeGenome from './genome.json';
 import Behavior from '../../components/behavior';
@@ -71,20 +71,24 @@ export const Genome = () => {
       <Row gutter={[16, 16]}>
         {errorMessage}
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
-          <div className={classes.Card}>{profile}</div>
+          <Badge.Ribbon text="About">
             <Card>{profile}</Card>
+          </Badge.Ribbon>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
-          <div className={classes.Card}>Reputation</div>
+          <Badge.Ribbon text="Reputation">
             <Card></Card>
+          </Badge.Ribbon>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
-          <div className={classes.Card}>Resume</div>
+          <Badge.Ribbon text="Professional Experience">
             <Card></Card>
+          </Badge.Ribbon>
         </Col>
         <Col span={6} xs={24} sm={24} md={12} lg={6} xl={6}>
-          <div className={classes.Card}>{behavior}</div>
+          <Badge.Ribbon text="Behavior">
             <Card>{behavior}</Card>
+          </Badge.Ribbon>
         </Col>
       </Row>
     </>
