@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 import classes from './PersonalityTraits.module.css';
 import PropTypes from 'prop-types';
 import {Row, Col, Tooltip} from 'antd';
@@ -11,6 +11,8 @@ import {ReactComponent as HonestyHumility} from '../../assets/honesty-humility.s
 import {ReactComponent as OpennessToExperience} from '../../assets/openness-to-experience.svg';
 import {Arrow} from './Arrow';
 import {InfoCircleOutlined} from '@ant-design/icons';
+import {PersonContext} from '../../contexts';
+import {getFirstName} from '../../utils';
 
 const normalDistribution = {
   extraversion: {
@@ -50,6 +52,7 @@ const getAnalisiPercentage = (analysis) => {
 };
 
 export const PersonalityTraits = ({groups, analyses}) => {
+  const person = useContext(PersonContext);
   const [results, setResults] = useState([]);
   const [visibleResult, setVisibleResult] = useState(0);
 
@@ -102,7 +105,10 @@ export const PersonalityTraits = ({groups, analyses}) => {
             </Col>
           </Row>
           <Row>
-            <div className={classes.Details}>Score:</div> {`${result.analysis}`}
+            <div className={classes.Details}>
+              {getFirstName(person.name)}'s Score:
+            </div>
+            {`${result.analysis}`}
           </Row>
           <Row>
             <div className={classes.Details}>Global Median:</div>{' '}
@@ -118,9 +124,7 @@ export const PersonalityTraits = ({groups, analyses}) => {
             </div>{' '}
             {(result.analysis - result.median).toFixed(2)}
           </Row>
-          {/* <Row>Normal distribuition for personality trait</Row> */}
         </Col>
-        {/* {result.id}= {result.analysis} ({result.median}+-{result.stddev}) */}
       </Row>
     );
   }
