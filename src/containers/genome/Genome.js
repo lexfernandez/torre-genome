@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Alert, Badge, Col, Row, Skeleton} from 'antd';
+import {Alert, Badge, Col, message, Row, Skeleton} from 'antd';
 import {Profile} from '../../components/profile/Profile';
 import fakeGenome from './genome.json';
 import Behavior from '../../components/behavior';
@@ -13,20 +13,18 @@ export const Genome = () => {
   const [error, setError] = useState(false);
   let {username} = useParams();
 
-  useEffect(async () => {
+  useEffect(() => {
     setGenome(undefined);
     setError(false);
     async function getData() {
       try {
         let response = await Api.getGenome(username);
-        console.log(JSON.stringify(response.data));
         let bio = response.data;
-        console.log(bio);
         setGenome(bio);
       } catch (error) {
+        message.error(error.message);
         setGenome(fakeGenome);
         setError(true);
-        console.log(error);
       }
     }
     getData();
