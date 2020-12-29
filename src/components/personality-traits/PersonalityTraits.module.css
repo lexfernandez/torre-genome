@@ -1,3 +1,32 @@
 .PersonalityTraitsHex {
   text-align: center;
 }
+
+.AlignTextCenter {
+  text-align: center;
+}
+.AlignTextLeft {
+  text-align: left;
+}
+.AlignTextRight {
+  text-align: right;
+}
+
+.Small {
+  font-size: 10px;
+}
+
+.Trait {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Details {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.Arrow {
+  position: absolute;
+}
