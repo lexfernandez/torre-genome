@@ -11,7 +11,6 @@ export const ProfessionalCulture = ({groups, analyses}) => {
 
     return previous;
   }, {});
-  console.log(groupsByAnswer);
   let answers = Object.keys(groupsByAnswer).map((key, index) => {
     let timelineItems = groupsByAnswer[key].map((group) => {
       let groupAnalyses = analyses.filter(
@@ -24,7 +23,6 @@ export const ProfessionalCulture = ({groups, analyses}) => {
       );
     });
 
-    console.log(timelineItems);
     return (
       <TabPane
         tab={<div className={classes.Title}>{key.split('-').join(' ')}</div>}
