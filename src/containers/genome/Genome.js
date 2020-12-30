@@ -40,7 +40,7 @@ export const Genome = () => {
   );
 
   let profile = <Skeleton active paragraph={{rows: 5}} />;
-  if (genome) {
+  if (genome && genome.person) {
     profile = (
       <Profile
         person={genome.person}
