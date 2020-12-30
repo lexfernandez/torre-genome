@@ -4,7 +4,7 @@ import App from './containers/app';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 import './index.css';
-axios.defaults.baseURL = 'https://torre.bio/api';
+axios.defaults.baseURL = '/api';
 
 ReactDOM.render(
   <React.StrictMode>
